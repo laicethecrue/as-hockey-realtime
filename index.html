@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AS – Hockey Game v3 (Classement en temps réel)</title>
+
+  <meta name="theme-color" content="#0b1628" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="AS Hockey" />
+
+  <link rel="manifest" href="manifest.webmanifest?v=300" />
+  <link rel="stylesheet" href="styles.css?v=300" />
+</head>
+<body>
+  <noscript>Active JavaScript pour utiliser le jeu.</noscript>
+  <div id="app">Chargement…</div>
+
+  <!-- App en module (nécessaire pour importer Firebase) -->
+  <script type="module" src="app.js?v=300"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      addEventListener('load', ()=>navigator.serviceWorker.register('./sw.js?v=300'));
+    }
+  </script>
+</body>
+</html>
