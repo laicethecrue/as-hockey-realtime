@@ -1,0 +1,29 @@
+{
+  "memory_pairs": [
+    { "id":"ecran","label":"Écran","emoji":"🛡️" },
+    { "id":"mise","label":"Mise au jeu","emoji":"🎯" },
+    { "id":"forecheck","label":"Échec avant","emoji":"🚀" },
+    { "id":"enclave","label":"Enclave","emoji":"🎯" },
+    { "id":"reverse","label":"Reverse","emoji":"🔁" },
+    { "id":"gap","label":"Gap control","emoji":"📏" }
+  ],
+  "roster": [
+    { "id":"p01","name":"Mathis Desfossés","number":1,"avatar":"" },
+    { "id":"p02","name":"Liam Poirier","number":2,"avatar":"" },
+    { "id":"p03","name":"William Boisvert","number":3,"avatar":"" },
+    { "id":"p04","name":"Charles Bezeau","number":4,"avatar":"" },
+    { "id":"p05","name":"Lucas Gauthier","number":5,"avatar":"" },
+    { "id":"p06","name":"Elliot Garceau","number":6,"avatar":"" },
+    { "id":"p07","name":"Lowës Ndombi","number":7,"avatar":"" },
+    { "id":"p08","name":"Thomas Flageole","number":8,"avatar":"" },
+    { "id":"p09","name":"Léo Berrouard","number":9,"avatar":"" },
+    { "id":"p10","name":"Edgar Dupont","number":10,"avatar":"" },
+    { "id":"p11","name":"Hugo Lessard","number":11,"avatar":"" },
+    { "id":"p12","name":"Antoine Guillemette","number":12,"avatar":"" },
+    { "id":"p13","name":"Édouard Cliche","number":13,"avatar":"" },
+    { "id":"p14","name":"Alexandre Champagne","number":14,"avatar":"" },
+    { "id":"p15","name":"Ulysse Giguère","number":15,"avatar":"" },
+    { "id":"p16","name":"Lauralie Gareau","number":16,"avatar":"" },
+    { "id":"p17","name":"Nathan Chénier","number":17,"avatar":"" }
+  ]
+}
