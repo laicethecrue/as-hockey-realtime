@@ -1,0 +1,17 @@
+{
+  "rules": {
+    ".read": true,
+    "scores": {
+      "$playerId": {
+        ".write": "auth == null", 
+        // si tu veux sans login; pour forcer l’auth, mets: "auth != null"
+        ".validate": "newData.hasChildren(['name','points']) &&
+                      newData.child('name').isString() &&
+                      newData.child('name').val().length <= 40 &&
+                      newData.child('points').isNumber() &&
+                      newData.child('points').val() >= 0 &&
+                      newData.child('points').val() <= 100000"
+      }
+    }
+  }
+}
